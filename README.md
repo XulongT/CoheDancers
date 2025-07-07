@@ -36,7 +36,7 @@ To set up the necessary environment for running this project, follow the steps b
 ## Download Resources
 
 - Download the **I-Dancers** dataset from [Google Drive (placeholder)](https://drive.google.com/placeholder).
-- Download our **pretrained model weights** and place them into the `./Pretrained/` folder:  
+- Download our **preprocessed music and dance features** and place them into the `./Pretrained/` folder:  
   [Download Link (placeholder)](https://drive.google.com/placeholder)
 - Download the **pretrained model weights** and place them into the `./output/` folder:  
   [Download Link (placeholder)](https://drive.google.com/placeholder)
