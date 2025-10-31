@@ -3,11 +3,7 @@
 Code for ACM Multimedia 2025 paper  
 **"CoheDancers: Enhancing Interactive Group Dance Generation through Music-Driven Coherence Decomposition"**
 
-[[Paper]](https://dl.acm.org/placeholder) | [[Video Demo]](https://youtube.com/placeholder)
-
-<a href="https://youtube.com/placeholder" target="_blank">
-    <img src="https://github.com/XulongT/CoDancers/blob/main/demo/play_demo.png" alt="Watch the video" width="400"/>
-</a>
+[[Paper]]([https://dl.acm.org/doi/10.1145/3746027.3755267]) 
 
 ---
 
@@ -88,17 +84,17 @@ To evaluate the model’s performance using the defined metrics:
 python test_gpt.py
 ```
 
----
-
-# Acknowledgments
-
-todo
 
 ---
 
 # Citation
 
 ```bibtex
-@inproceedings{todo
+@inproceedings{10.1145/3746027.3755267,
+  author = {Yang, Kaixing and Tang, Xulong and Wu, Haoyu and Qin, Biao and Liu, Hongyan and He, Jun and Fan, Zhaoxin},
+  title = {CoheDancers: Enhancing Interactive Group Dance Generation through Music-Driven Coherence Decomposition},
+  year = {2025},
+  booktitle = {Proceedings of the 33rd ACM International Conference on Multimedia}
 }
+
 ```
