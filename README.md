@@ -7,6 +7,35 @@ Code for ACM Multimedia 2025 paper
 
 ---
 
+
+
+## Announcement
+
+🎉 **I-Dancers dataset is now available!**  
+Download link is provided below.
+
+
+
+# Dataset
+
+We provide the **I-Dancers** dataset, which includes processed music features, semantic music embeddings, SMPL-based 3D motion sequences, and raw audio clips.
+
+### Download
+
+-  Download the **I-Dancers** dataset from [Google Drive ](https://drive.google.com/file/d/14GJ-TKEw8q1aU7pcS3C0Ym6TSs2LvZOo/view?usp=sharing).
+
+###  Dataset Structure
+
+```
+I-Dancers/
+    ├── librosa/     # Music features extracted with Librosa (MFCC, chroma, tempogram, onset, etc.)
+    ├── mert/        # High-level semantic music embeddings from MERT
+    ├── motion/      # SMPL motion sequences (pose + translation)
+    └── music/       # Raw audio files (.wav)
+```
+
+
+
 # Code
 
 ## Set up the Environment
@@ -29,9 +58,8 @@ To set up the necessary environment for running this project, follow the steps b
 
 ---
 
-## Download Resources
+## Download Additional Resources
 
-- Download the **I-Dancers** dataset from [Google Drive (placeholder)](https://drive.google.com/placeholder).
 - Download our **preprocessed music and dance features** and place them into the `./Pretrained/` folder:  
   [Download Link (placeholder)](https://drive.google.com/placeholder)
 - Download the **pretrained model weights** and place them into the `./output/` folder:  
@@ -55,6 +83,7 @@ CoheDancers/
     ├── demo_gpt.py                     
     └── test_gpt.py     
 ```
+
 ---
 
 ## Training
