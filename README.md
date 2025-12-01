@@ -3,7 +3,7 @@
 Code for ACM Multimedia 2025 paper  
 **"CoheDancers: Enhancing Interactive Group Dance Generation through Music-Driven Coherence Decomposition"**
 
-[[Paper]]([https://dl.acm.org/doi/10.1145/3746027.3755267]) 
+[Paper](https://dl.acm.org/doi/10.1145/3746027.3755267)
 
 ---
 
